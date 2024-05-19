@@ -20,21 +20,19 @@
 		</div>
 		<div class="pt-10 flex justify-evenly ">
 			<div class="card max-w-md">
-				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 10 artists</header>
+				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 50 artists</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Do you want to know which artist you're listening to the most? Now you can! 
-					You are able to see your top 10 Spotify artists from the last four weeks, six months, and all time. 
-					This will be extended to your top 50 in stage 3!
+					You are able to see your top 50 Spotify artists from the last four weeks, six months, and all time. 
 				</section>
 			</div>
 			<div class="card max-w-md">
-				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 10 tracks</header>
+				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 50 tracks</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Do you want to know what songs you listen to the most? Now you can! 
-					You are able to view your top 10 Spotify tracks from the previous four weeks, six months, and all time. 
-					This will be extended to your top 50 in stage 3!
+					You are able to view your top 50 Spotify tracks from the previous four weeks, six months, and all time. 
 				</section>
 			</div>
 			<div class="card max-w-md">
-				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 3 albums</header>
+				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 10 albums</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Have you ever wondered what your favorite albums are?
 					You'll find out soon enough. This feature is inbound, 
 					and soon you will be able to see your top albums from the previous four weeks, six months, and all time!
@@ -56,7 +54,7 @@
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
-					<h3 class="flex items-center mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 1<span class="text-color-surface-500 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-500 ms-3">Current</span></h3>
+					<h3 class="flex items-center mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 1</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Released on August, 2022</time>
 					<p class="mb-4 text-lg font-normal text-gray-500 dark:text-tertiary-500">The ability to log into Spotify and see your own basic statistics. Stats like your top 10 artist and tracks of the past 4 weeks, 6 months and all time stats. This stage is also seen as beta.</p>
 				</li>
@@ -66,8 +64,8 @@
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
-					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 2</h3>
-					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected in January, 2024</time>
+					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 2<span class="text-color-surface-500 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-500 ms-3">In working</span></h3>
+					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected in August, 2024</time>
 					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Planned: Improving the design for showcasing the stats. Rebranding + implementation of a framework. Basically visually and behind the scenes upgrades.</p>
 				</li>
 				<li class="mb-10 ms-6">
@@ -96,6 +94,5 @@
 </main>
 
 <footer>
-	<!-- Your content here -->
-
+	<!-- Content here -->
 </footer>
