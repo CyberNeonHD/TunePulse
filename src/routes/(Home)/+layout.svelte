@@ -17,8 +17,7 @@
 				<strong class=" text-4xl pl-12 text-surface-500 animate-fade animate-delay-[1000ms]">TunePulse</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
-					class="font-semibold btn variant-filled animate-fade animate-delay-[1500ms]"
+				<a class="font-semibold btn variant-filled animate-fade animate-delay-[1500ms]"
 					href="#home"
 					on:click|preventDefault={() => {
 						const homeElement = document.getElementById('home');
@@ -55,7 +54,7 @@
 				</a>
 				<a
 					class="font-semibold btn variant-filled animate-fade animate-delay-[2500ms]"
-					href="/stats"
+					href="/pulseboard"
 					rel="noreferrer"
 				>
 					Login
@@ -63,6 +62,5 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- Page Route Content -->
 	<slot />
 </AppShell>
