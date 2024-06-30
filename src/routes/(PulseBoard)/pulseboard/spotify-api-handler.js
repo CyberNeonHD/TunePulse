@@ -40,3 +40,9 @@ function configureData() {
     console.error('Access token or expires_in parameter missing.');
   }
 }
+
+export function logout(){
+  localStorage.removeItem("stateKey");
+  localStorage.removeItem("access_token");
+  localStorage.removeItem("expires_in");
+}

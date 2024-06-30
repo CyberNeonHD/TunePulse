@@ -1,5 +1,6 @@
 <script>
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { logout } from './pulseboard/spotify-api-handler';
 </script>
 
 <AppShell>
@@ -11,7 +12,7 @@
 				<h3 class="text-xl text-green-500 animate-fade animate-delay-[600ms]">V2 (Beta)</h3>
 			  </div>
 			  <div id="logout" class="bg-green-500 rounded-md p-2 transition duration-500 hover:bg-red-500 hover:cursor-pointer animate-fade animate-delay-[700ms]">
-				<a class="text-white text-lg font-semibold hover:cursor-pointer" href="/" rel="noreferrer">
+				<a class="text-white text-lg font-semibold hover:cursor-pointer" href="/" rel="noreferrer" on:click={logout}>
 				  Log out
 				</a>
 			  </div>

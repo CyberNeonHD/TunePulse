@@ -11,6 +11,7 @@ function handleArtistsResponse() {
   if (this.status === 200) {
     let data = JSON.parse(this.responseText);
     topArtists = data.items;
+    localStorage.setItem('topArtists', topArtists);
   } else if (this.status === 401) {
     requestAuthorization();
   } else {

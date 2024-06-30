@@ -11,10 +11,9 @@
 </script>
 <main>
   <section class="text-center pt-14">
-    <h2 class="text-4xl font-semibold text-white mb-5 animate-jump-in animate-delay-[900ms]">Your top <span style="color: rgb(20, 220, 80);">50</span> tracks</h2>
+    <h2 class="text-4xl font-semibold text-white mb-5 animate-jump-in animate-delay-[900ms]">Your top <span style="color: rgb(20, 220, 80);">50</span> artists</h2>
     <h3 class="text-xl text-white pb animate-jump-in animate-delay-[1000ms]">Here are your top 50 artists based on your all-time listening habits.</h3>
   </section>
-  
   <section>
     <div id="card-data" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 p-8">
       {#each topArtists as artist, i}
