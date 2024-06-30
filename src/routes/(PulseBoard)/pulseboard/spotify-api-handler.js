@@ -2,8 +2,8 @@ import { onMount } from 'svelte';
 import { access_token, expires_in } from '../../../stores/spotify.js';
 import { requestAuthorization } from '../../(Home)/auth.js';
 
-//const redirect_uri = "https://tunepulse.be/pulseboard";
-const redirect_uri = "http://localhost:5173/pulseboard";
+const redirect_uri = "https://tunepulse.be/pulseboard";
+//const redirect_uri = "http://localhost:5173/pulseboard";
 
 export function initialize() {
   onMount(() => {
