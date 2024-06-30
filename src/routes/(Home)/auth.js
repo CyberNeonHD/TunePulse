@@ -1,6 +1,6 @@
 export function requestAuthorization() {
-    //const redirect_uri = "https://tunepulse.be/pulseboard";
-    const redirect_uri = "http://localhost:5173/pulseboard";
+    const redirect_uri = "https://tunepulse.be/pulseboard";
+    //const redirect_uri = "http://localhost:5173/pulseboard";
 
     var client_id = '4ace47269fd943eea3258d51e7940aaf';
     var state = generateRandomString(16);
