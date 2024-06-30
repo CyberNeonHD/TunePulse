@@ -1,5 +1,6 @@
 <script>
 	import '../../app.postcss';
+	import { requestAuthorization } from './auth.js';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 
 	// Floating UI for Popups
@@ -52,9 +53,9 @@
 				>
 					Roadmap
 				</a>
-				<a
+				<a 	on:click="{requestAuthorization}"
 					class="font-semibold btn variant-filled animate-fade animate-delay-[2500ms]"
-					href="/pulseboard"
+					href="#"
 					rel="noreferrer"
 				>
 					Login

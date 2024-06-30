@@ -1,6 +1,5 @@
 <style>
   @import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap');
-  /* Add Tailwind CSS styles here or import them as a separate file */
 </style>
 
 <main>
