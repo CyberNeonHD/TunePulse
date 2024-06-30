@@ -1,9 +1,11 @@
 import { callApi } from '../api-caller';
 
+const topTracksLifeTime = "https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=50&offset=0";
+
+
 export let topTracks = [];
 
 export async function fetchTopTracks() {
-  const topTracksLifeTime = "https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=50&offset=0";
   callApi("GET", topTracksLifeTime, null, handleTracksResponse);
 }
 

@@ -32,6 +32,13 @@
         <h3 class="text-3xl font-semibold mb-3">WIP: Hobby Project</h3>
         <br>
         <p class="text-xl text-white leading-6">
+          Notice 30/06/2024: <br>
+          - Currently there is a bug with pulling the data from the API.<br>
+          - It only pulls the data the first time, then it wipes itself and doesn't re-pull.<br>
+          - For now strackifyer.co.uk is still avaible for use.<br>
+          - I am working on a fix for this issue.<br>
+          <br>
+
           News 30/06/2024: <br>
           - Welcome to the beta release of Strackifyer 2.0, better called TunePulse!<br>
           - Currently in beta, for a couple of weeks. <br>

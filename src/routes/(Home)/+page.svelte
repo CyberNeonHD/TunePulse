@@ -18,24 +18,23 @@
 				I'm open to any suggestions you might have, your input is crucial in making TunePulse better.
 			</p>
 		</div>
-		<div class="pt-10 flex justify-evenly ">
-			<div class="card max-w-md">
+		<div class="pt-10 ml-10 mr-10 flex justify-evenly">
+			<div class="card m-10">
 				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 50 artists</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Do you want to know which artist you're listening to the most? Now you can! 
 					You are able to see your top 50 Spotify artists from the last four weeks, six months, and all time. 
 				</section>
 			</div>
-			<div class="card max-w-md">
+			<div class="card m-10">
 				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 50 tracks</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Do you want to know what songs you listen to the most? Now you can! 
 					You are able to view your top 50 Spotify tracks from the previous four weeks, six months, and all time. 
 				</section>
 			</div>
-			<div class="card max-w-md">
+			<div class="card m-10">
 				<header class="card-header text-4xl bg-primary-500 rounded-t-lg">Top 10 albums</header>
 				<section class="p-4 bg-primary-500 rounded-b-lg text-xl">Have you ever wondered what your favorite albums are?
-					You'll find out soon enough. This feature is inbound, 
-					and soon you will be able to see your top albums from the previous four weeks, six months, and all time!
+					You'll find out soon enough. This feature is inbound togheter with a bunch more features!
 				</section>
 			</div>
 		</div>
