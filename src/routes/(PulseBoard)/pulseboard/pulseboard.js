@@ -6,12 +6,12 @@ export function selectedMenuOption(e) {
         case 'artists':
             // initLoadArtists();
             console.log('Artists selected');
-            window.location.href = '/artists';
+            window.location.href = '/pulseboard/artists';
             break;
         case 'tracks':
             // initLoadTracks();
             console.log('Tracks selected');
-            window.location.href = '/tracks';
+            window.location.href = '/pulseboard/tracks';
             break;
         case 'albums':
             // displayNotReady();

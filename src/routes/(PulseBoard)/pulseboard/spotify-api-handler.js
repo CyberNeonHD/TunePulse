@@ -2,7 +2,6 @@ import { onMount } from 'svelte';
 import { access_token, expires_in } from '../../../stores/spotify.js';
 import { requestAuthorization } from '../../(Home)/auth.js';
 
-const TOKEN = "https://accounts.spotify.com/api/token";
 //const redirect_uri = "https://tunepulse.be/pulseboard";
 const redirect_uri = "http://localhost:5173/pulseboard";
 
@@ -23,12 +22,21 @@ function handleRedirect() {
 }
 
 function configureData() {
-  const params = new Proxy(new URLSearchParams(window.location.hash.substring(1, window.location.hash.length)), {
-    get: (searchParams, prop) => searchParams.get(prop),
-  });
-  const token = params.access_token;
-  const expires = params.expires_in;
+  const url = window.location.href;
+  const hashIndex = url.indexOf('#');
+  const hash = url.slice(hashIndex + 1);
+  const params = new URLSearchParams(hash);
 
-  access_token.set(token);
-  expires_in.set(expires);
+  const token = params.get('access_token');
+  const expires = params.get('expires_in');
+
+  if (token && expires) {
+    localStorage.setItem('access_token', token);
+    localStorage.setItem('expires_in', expires);
+    /*
+    access_token.set(token);
+    expires_in.set(expires);*/
+  } else {
+    console.error('Access token or expires_in parameter missing.');
+  }
 }
