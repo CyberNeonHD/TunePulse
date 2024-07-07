@@ -35,6 +35,7 @@
           Update 07/07/2024: <br>
           - API bug has been fixed. <br>
           - Data is now being pulled and displayed correctly. <br>
+          - Home page is now mobile friendly. <br>
           - New features are coming soon! <br>
           <br>
 
