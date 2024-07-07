@@ -32,6 +32,12 @@
         <h3 class="text-3xl font-semibold mb-3">WIP: Hobby Project</h3>
         <br>
         <p class="text-xl text-white leading-6">
+          Update 07/07/2024: <br>
+          - API bug has been fixed. <br>
+          - Data is now being pulled and displayed correctly. <br>
+          - New features are coming soon! <br>
+          <br>
+
           Notice 30/06/2024: <br>
           - Currently there is a bug with pulling the data from the API.<br>
           - It only pulls the data the first time, then it wipes itself and doesn't re-pull.<br>
