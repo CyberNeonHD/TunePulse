@@ -25,11 +25,12 @@
 	<svelte:fragment slot="footer">
 		<!-- Footer Section -->
 		<section id="footer" class="inset-x-0 bottom-0 z-50">
-		  <div class="flex items-center justify-center p-4">
-			<div class="brand">
-			  <h4 class="text-3xl text-white">Tune<span style="color: rgb(20, 220, 80);">Pulse</span></h4>
-			</div>
-		  </div>
+			<div class="flex items-center justify-center pb-8">
+				<div class="brand text-center">
+				  <h4 class="text-3xl text-white">Tune<span style="color: rgb(20, 220, 80);">Pulse</span></h4>
+				  <p class="text-lg text-white">Your Symphony of Spotify Insights!</p>
+				</div>
+			  </div>
 		</section>
 	</svelte:fragment>
 </AppShell>
