@@ -1,17 +1,17 @@
+import { writable } from 'svelte/store';
 import { callApi } from '../api-caller';
 
-export let topArtists = [];
+export const topArtists = writable([]);
+const topArtistsLifeTime = "https://api.spotify.com/v1/me/top/artists?time_range=long_term&limit=50&offset=0";
 
 export async function fetchTopArtists() {
-  const topArtistsLifeTime = "https://api.spotify.com/v1/me/top/artists?time_range=long_term&limit=50&offset=0";
   callApi("GET", topArtistsLifeTime, null, handleArtistsResponse);
 }
 
 function handleArtistsResponse() {
   if (this.status === 200) {
     let data = JSON.parse(this.responseText);
-    topArtists = data.items;
-    localStorage.setItem('topArtists', topArtists);
+    topArtists.set(data.items);
   } else if (this.status === 401) {
     requestAuthorization();
   } else {

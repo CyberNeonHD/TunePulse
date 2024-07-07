@@ -4,10 +4,15 @@
 
 <script>
   import { onMount } from 'svelte';
-  import { tracks } from '../../../../stores/tracks';
   import { topTracks, fetchTopTracks, convertDuration } from './spotifyServiceTracks';
-  onMount(async () => {
-    await fetchTopTracks();
+  
+  onMount(() => {
+    fetchTopTracks();
+  });
+
+  let tracks = [];
+  topTracks.subscribe(value => {
+    tracks = value;
   });
 </script>
 
@@ -17,8 +22,8 @@
 </section>
 <section>
   <div id="card-data" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 p-8">
-    {#each topTracks as track, i}
-      <div class="card-container bg-green-500 text-black rounded-xl p-8 relative max-w-full text-center flex flex-col items-center">
+    {#each tracks as track, i}
+      <div class="card-container bg-green-500 text-black rounded-xl p-8 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
         <span class="position bg-black text-green-500 font-bold py-1 px-3 absolute top-8 left-8 rounded-sm">#{i + 1}</span>
         <div class="image mb-8">
           <img class="round rounded-full" src={track.album.images[1].url} alt="track" />
