@@ -13,8 +13,11 @@
   <h2 class="text-6xl font-semibold text-white mb-5 animate-jump-in animate-delay-[900ms]">Your <span style="color: rgb(20, 220, 80);">Spotify</span> Stats</h2>
   <nav>
     <ul class="flex justify-center">
+      <!-- svelte-ignore a11y-invalid-attribute -->
       <li><a href="#" id="artists" class="text-white text-xl font-medium pr-5 hover:text-green-500 transition duration-500 animate-fade animate-delay-[1000ms]" on:click={selectedMenuOption}>Top 50 artists</a></li>
+      <!-- svelte-ignore a11y-invalid-attribute -->
       <li><a href="#" id="tracks" class="text-white text-xl font-medium pr-5 hover:text-green-500 transition duration-500 animate-fade animate-delay-[1100ms]" on:click={selectedMenuOption}>Top 50 tracks</a></li>
+      <!-- svelte-ignore a11y-invalid-attribute -->
       <li><a href="#" id="albums" class="text-white text-xl font-medium hover:text-green-500 transition duration-500 animate-fade animate-delay-[1200ms]" on:click={selectedMenuOption}>Top 10 albums</a></li>
     </ul>
   </nav>
