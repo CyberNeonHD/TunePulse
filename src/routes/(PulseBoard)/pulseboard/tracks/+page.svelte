@@ -1,7 +1,3 @@
-<style>
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap');
-</style>
-
 <script>
   import { onMount } from 'svelte';
   import { topTracks, fetchTopTracks, convertDuration } from './spotifyServiceTracks';
