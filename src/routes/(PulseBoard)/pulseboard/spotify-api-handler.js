@@ -1,5 +1,4 @@
 import { onMount } from 'svelte';
-import { access_token, expires_in } from '../../../stores/spotify.js';
 import { requestAuthorization } from '../../(Home)/auth.js';
 
 const redirect_uri = "https://tunepulse.be/pulseboard";
@@ -22,9 +21,7 @@ function configureData() {
   if (token && expires) {
     localStorage.setItem('access_token', token);
     localStorage.setItem('expires_in', expires);
-    /*
-    access_token.set(token);
-    expires_in.set(expires);*/
+
   } else {
     console.error('Access token or expires_in parameter missing.');
     requestAuthorization();
