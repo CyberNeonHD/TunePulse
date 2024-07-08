@@ -6,17 +6,6 @@ const redirect_uri = "https://tunepulse.be/pulseboard";
 //const redirect_uri = "http://localhost:5173/pulseboard";
 
 export function initialize() {
-  onMount(() => {
-    if (window.location.href.length > 0) {
-      handleRedirect();
-    }
-    else {
-      requestAuthorization();
-    }
-  });
-}
-
-function handleRedirect() {
   configureData();
   window.history.pushState("", "", redirect_uri);
 }
@@ -38,6 +27,7 @@ function configureData() {
     expires_in.set(expires);*/
   } else {
     console.error('Access token or expires_in parameter missing.');
+    requestAuthorization();
   }
 }
 

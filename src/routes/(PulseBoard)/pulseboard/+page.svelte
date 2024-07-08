@@ -1,9 +1,11 @@
 <script>
     import { selectedMenuOption } from './pulseboard.js';
-
+    import { onMount } from 'svelte';
     import { initialize } from './spotify-api-handler.js';
-    initialize();
-    
+
+    onMount(() => {
+        initialize();
+    });    
 </script>
   
 <style>
