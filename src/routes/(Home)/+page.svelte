@@ -72,7 +72,7 @@
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 2<span class="text-color-surface-500 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-500 ms-3">In working</span></h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected full release in March, 2025</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">We've made a major leap! The project has evolved from its original basic HTML, CSS, and JS setup to a more powerful tech stack using SvelteKit, Tailwind CSS, and Skeleton Lab. This new version represents a complete overhaul of the initial release and is set to breathe new life into the project.</p>
+					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Rebranded to TunePulse, this update marks a significant transformation. The project has evolved from basic HTML, CSS, and JS to a more modern tech stack featuring SvelteKit, Tailwind CSS, and Skeleton Lab. This overhaul revitalizes the project and sets the stage for exciting future developments.</p>
 				</li>
 				<li class="mb-10 ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
