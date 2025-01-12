@@ -6,7 +6,7 @@ Transparency is essential to our security practices. You can check here if the c
 
 | Version | Security Status        |
 | ------- | ---------------------- |
-| Beta    | :x: Vulnerability detected |
+| Beta    | ✔️ No known vulnerabilities |
 
 We take all security vulnerabilities seriously. If you notice any issues, please consult the reporting section below.
 
