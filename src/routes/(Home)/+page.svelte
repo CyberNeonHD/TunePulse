@@ -61,8 +61,8 @@
 						</svg>
 					</span>
 					<h3 class="flex items-center mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 1</h3>
-					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Released on August, 2022</time>
-					<p class="mb-4 text-lg font-normal text-gray-500 dark:text-tertiary-500">The ability to log into Spotify and see your own basic statistics. Stats like your top 10 artist and tracks of the past 4 weeks, 6 months and all time stats. This stage is also seen as the basic version.</p>
+					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Released 2022</time>
+					<p class="mb-4 text-lg font-normal text-gray-500 dark:text-tertiary-500">The ability to log into Spotify and see your own basic statistics. Stats like your top 50 artist and tracks of the past 4 weeks, 6 months and all time stats. Top 10 allbums of all time. This stage is also seen as the basic version.</p>
 				</li>
 				<li class="mb-10 ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
@@ -71,8 +71,8 @@
 						</svg>
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 2<span class="text-color-surface-500 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-500 ms-3">In working</span></h3>
-					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected in August, 2024</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Planned: Improving the design for showcasing the stats. Rebranding + implementation of a framework (The site is being rebuild with sveltekit and tailwindCSS). Basically visually and behind the scenes upgrades.</p>
+					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected full release in March, 2025</time>
+					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">We've made a major leap! The project has evolved from its original basic HTML, CSS, and JS setup to a more powerful tech stack using SvelteKit, Tailwind CSS, and Skeleton Lab. This new version represents a complete overhaul of the initial release and is set to breathe new life into the project.</p>
 				</li>
 				<li class="mb-10 ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
@@ -82,7 +82,7 @@
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 3</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">TBA</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Planned: More basic statistics. Stats like the top 100 artists and tracks, more detailed stats about the artists as well as the tracks themselves.</p>
+					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">In the next update, we plan to introduce more in-depth statistics, including features like the top 100 artists and tracks, along with detailed insights into both the artists and the tracks themselves. Additionally, we’ll be adding basic web security tools.</p>
 				</li>
 				<li class="ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
@@ -92,7 +92,7 @@
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 4</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">TBA</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Planned: More advanced statistics. This should be a very solid version (end goal - new ideas are always welcome).</p>
+					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">In this version, we’ll roll out more advanced statistics to enhance your experience. Our goal is to create a robust, polished version of the platform, but we’re always open to new ideas and suggestions for improvement!</p>
 				</li>
 			</ol>
 		</div>
