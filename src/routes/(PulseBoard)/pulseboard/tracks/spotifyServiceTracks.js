@@ -4,10 +4,12 @@ import { callApi } from '../api-caller';
 export const topTracks = writable([]);
 export const topAlbums = writable([]);
 
-const topTracksLifeTime = "https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=50&offset=0";
+const getTopTracksUrl = (timeRange) => 
+  `https://api.spotify.com/v1/me/top/tracks?time_range=${timeRange}&limit=50&offset=0`;
 
-export async function fetchTopTracks() {
-  callApi("GET", topTracksLifeTime, null, handleTracksResponse);
+export async function fetchTopTracks(timeRange = 'short_term') {
+  const topTracksUrl = getTopTracksUrl(timeRange);
+  callApi("GET", topTracksUrl, null, handleTracksResponse);
 }
 
 function handleTracksResponse(){

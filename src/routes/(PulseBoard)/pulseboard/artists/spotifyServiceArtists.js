@@ -2,10 +2,13 @@ import { writable } from 'svelte/store';
 import { callApi } from '../api-caller';
 
 export const topArtists = writable([]);
-const topArtistsLifeTime = "https://api.spotify.com/v1/me/top/artists?time_range=long_term&limit=50&offset=0";
 
-export async function fetchTopArtists() {
-  callApi("GET", topArtistsLifeTime, null, handleArtistsResponse);
+const getTopArtistsUrl = (timeRange) => 
+  `https://api.spotify.com/v1/me/top/artists?time_range=${timeRange}&limit=50&offset=0`;
+
+export async function fetchTopArtists(timeRange = 'short_term') {
+  const topArtistsUrl = getTopArtistsUrl(timeRange);
+  callApi("GET", topArtistsUrl, null, handleArtistsResponse);
 }
 
 function handleArtistsResponse() {

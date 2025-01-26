@@ -43,23 +43,24 @@
         <div class="mb-4">
             <h2 class="text-xl font-semibold mb-2">Updates leading up V2 release:</h2>
             <ul class="list-disc pl-6">
-                <li>Welcome to the beta release of Strackifyer 2.0, better called TunePulse!</li>
-                <li>Currently in beta, for a couple of weeks.</li>
-                <li>Please report any bugs or issues you encounter to <a href="mailto:mail@cyberneon.be" class="text-green-500">mail@cyberneon.be</a>.</li>
-                <li>You can report them on the <a class="text-green-500" href="https://github.com/CyberNeonHD/TunePulse">github repo</a> as well.</li>
-                <li>Better design and new features are coming soon! Stay tuned!</li>
+              <li>Welcome to the beta release of Strackifyer 2.0, better called TunePulse!</li>
+              <li>Currently in beta, for a couple of weeks.</li>
+              <li>Please report any bugs or issues you encounter to <a href="mailto:mail@cyberneon.be" class="text-green-500">mail@cyberneon.be</a>.</li>
+              <li>You can report them on the <a class="text-green-500" href="https://github.com/CyberNeonHD/TunePulse">github repo</a> as well.</li>
+              <li>Better design and new features are coming soon! Stay tuned!</li>
             </ul>
             <h2 class="text-xl font-semibold mb-2">Bugs and features:</h2>
             <ul class="list-disc pl-6">
-                <li>Upgrades all packages to the latest version (13/01/2025)</li>
-                <li>Auth bypass fixed.</li>
-                <li>Top 50 Artists now available.</li>
-                <li>Top 50 Tracks now available.</li>
-                <li>Top 10 Albums now available (based on top 50 all-time tracks).</li>
-                <li>API bug has been fixed.</li>
-                <li>Routing sveltekit working.</li>
-                <li>Data is now being pulled and displayed correctly.</li>
-                <li>Home page is now mobile friendly.</li>
+              <li>TimeRangeSelector component created</li>
+              <li>Upgrades all packages to the latest version (13/01/2025)</li>
+              <li>Auth bypass fixed.</li>
+              <li>Top 50 Artists now available.</li>
+              <li>Top 50 Tracks now available.</li>
+              <li>Top 10 Albums now available (based on top 50 all-time tracks).</li>
+              <li>API bug has been fixed.</li>
+              <li>Routing sveltekit working.</li>
+              <li>Data is now being pulled and displayed correctly.</li>
+              <li>Home page is now mobile friendly.</li>
             </ul>
         </div>
       </div>
