@@ -30,7 +30,7 @@
 		<!-- App Bar -->
 		<AppBar background="bg-primary-500">
 			<svelte:fragment slot="lead">
-				<strong class=" text-4xl pl-12 text-surface-500 animate-fade animate-delay-[1000ms]">TunePulse</strong>
+				<strong class=" text-4xl pl-12 text-surface-500 animate-fade animate-delay-1000">TunePulse</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<!-- Conditional rendering for PC -->

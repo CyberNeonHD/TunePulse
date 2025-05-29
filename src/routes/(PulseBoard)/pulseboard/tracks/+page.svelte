@@ -24,7 +24,7 @@
 <section class="text-center pt-14">
   <BackButton target="/pulseboard" text="Go to Pulseboard" />
   <h2 class="text-4xl font-semibold text-white mb-5 animate-jump-in animate-delay-[900ms]">Your top <span style="color: ;">50</span> tracks</h2>
-  <h3 class="text-xl text-white pb-4 animate-jump-in animate-delay-[1000ms]">Here are your top 50 tracks based on:</h3>
+  <h3 class="text-xl text-white pb-4 animate-jump-in animate-delay-1000">Here are your top 50 tracks based on:</h3>
   
   <TimeRangeSelector 
     {selectedTimeRange}
