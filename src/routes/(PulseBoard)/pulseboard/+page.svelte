@@ -30,7 +30,7 @@
       <h2 class="text-4xl font-semibold">Welcome to the PulseBoard</h2>
         <p class="text-lg">This is the PulseBoard, where you can find the latest updates and news about TunePulse.</p>
         <p class="text-lg">This is a hobby project, so updates may be slow.</p>
-        <div class="max-w-3xl mx-auto p-4 shadow-lg rounded-lg">
+        <div class="max-w-3xl mx-auto p-4 rounded-lg">
             <div class="mb-4">
                 <h2 class="text-xl font-semibold mb-2">Update 01/03/2025:</h2>
                 <ul class="list-disc pl-6">
@@ -39,7 +39,7 @@
                 </ul>
             </div>
         </div>
-      <div class="max-w-3xl mx-auto p-4 shadow-lg rounded-lg">
+      <div class="max-w-3xl mx-auto p-4 rounded-lg">
         <div class="mb-4">
             <h2 class="text-xl font-semibold mb-2">Updates leading up V2 release:</h2>
             <ul class="list-disc pl-6">

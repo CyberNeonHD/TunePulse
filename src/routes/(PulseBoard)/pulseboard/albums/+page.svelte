@@ -1,7 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import { topAlbums, fetchTopTracks } from '../tracks/spotifyServiceTracks';
-  import TimeRangeSelector from './../components/TimeRangeSelector.svelte';
+  import TimeRangeSelector from '$lib/components/TimeRangeSelector.svelte';
+  import BackButton from '$lib/components/BackButton.svelte';
   
   let selectedTimeRange = 'short_term';
   
@@ -21,6 +22,7 @@
   </script>
   
 <section class="text-center pt-14">
+  <BackButton target="/pulseboard" text="Go to Pulseboard" />
   <h2 class="text-4xl font-semibold text-white mb-5 animate-jump-in animate-delay-[900ms]">Top 10 Albums</h2>
   <h3 class="text-xl text-white pb-4 animate-jump-in animate-delay-[1000ms]">Here are your top 10 albums based on your tracks of:</h3>
   
