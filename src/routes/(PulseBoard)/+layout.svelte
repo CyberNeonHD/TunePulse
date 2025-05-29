@@ -1,5 +1,5 @@
 <script>
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppBar } from '@skeletonlabs/skeleton-svelte';
 	import { logout } from './pulseboard/spotify-api-handler';
 </script>
 

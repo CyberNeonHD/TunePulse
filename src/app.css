@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@import "@skeletonlabs/skeleton";
+
+@import "@skeletonlabs/skeleton/optional/presets";
+
+/* Add your theme import for your theme: "tunepulse-theme" here */
+
+@source "../node_modules/@skeletonlabs/skeleton-svelte/dist";
+
 html,
 body {
 	@apply h-full overflow-hidden;

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import '../../app.postcss';
 	import { requestAuthorization } from './auth.js';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppBar } from '@skeletonlabs/skeleton-svelte';
   
 	let isMobile = false;
   
@@ -35,7 +35,7 @@
 			<svelte:fragment slot="trail">
 				<!-- Conditional rendering for PC -->
 				{#if !isMobile}
-				<a class="font-semibold btn variant-filled animate-fade animate-delay-[1500ms]"
+				<a class="font-semibold btn preset-filled animate-fade animate-delay-[1500ms]"
 					href="#home"
 					on:click|preventDefault={() => {
 						const homeElement = document.getElementById('home');
@@ -47,7 +47,7 @@
 					Home
 				</a>
 				<a
-					class="font-semibold btn variant-filled animate-fade animate-delay-[1800ms]"
+					class="font-semibold btn preset-filled animate-fade animate-delay-[1800ms]"
 					href="#features"
 					on:click|preventDefault={() => {
 						const featuresElement = document.getElementById('features');
@@ -59,7 +59,7 @@
 					Features
 				</a>
 				<a
-					class="font-semibold btn variant-filled animate-fade animate-delay-[2100ms]"
+					class="font-semibold btn preset-filled animate-fade animate-delay-[2100ms]"
 					href="#roadmap"
 					on:click|preventDefault={() => {
 						const roadmapElement = document.getElementById('roadmap');
@@ -72,7 +72,7 @@
 				</a>
 				{/if}
 				<a 	on:click="{requestAuthorization}"
-					class="font-semibold btn variant-filled animate-fade animate-delay-[2500ms]"
+					class="font-semibold btn preset-filled animate-fade animate-delay-[2500ms]"
 					href="#"
 					rel="noreferrer"
 				>
