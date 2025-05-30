@@ -3,12 +3,13 @@
 @import "@skeletonlabs/skeleton/optional/presets";
 @import "@skeletonlabs/skeleton/themes/cerberus";
 
+
 @plugin 'tailwindcss-animated';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
 /* Add your theme import for your theme: "tunepulse-theme" here */
-
+@import '../tunepulse-theme.css';
 @source "../node_modules/@skeletonlabs/skeleton-svelte/dist";
 
 @custom-variant dark (&:is(.dark *));

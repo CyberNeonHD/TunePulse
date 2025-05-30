@@ -1,8 +1,8 @@
 import { onMount } from 'svelte';
-import { requestAuthorization } from '../../(Home)/auth.js';
+import { requestAuthorization } from '../../auth.js';
 
-const redirect_uri = "https://tunepulse.be/pulseboard";
-//const redirect_uri = "http://localhost:5173/pulseboard";
+//const redirect_uri = "https://tunepulse.be/pulseboard";
+const redirect_uri = "http://localhost:5173/pulseboard";
 
 export function initialize() {
   configureData();
