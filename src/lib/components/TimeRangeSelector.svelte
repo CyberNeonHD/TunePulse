@@ -12,7 +12,7 @@
 <div class="flex justify-center gap-4 mb-8">
   {#each timeRanges as { value, label }}
     <button 
-      class="px-4 py-2 rounded-full {selectedTimeRange === value ? 'bg-green-500 text-black' : 'bg-black text-green-500 border border-green-500'}"
+      class="px-8 py-2 rounded-md font-semibold {selectedTimeRange === value ? 'bg-green-500 text-black' : 'bg-black text-green-500 border border-green-500'}"
       on:click={() => onTimeRangeClick(value)}>
       {label}
     </button>

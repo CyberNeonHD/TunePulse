@@ -22,29 +22,29 @@
 			  <a class="text-green-500" href="https://github.com/CyberNeonHD/TunePulse">github repo</a> for more info.
 			</p>
 		  </div>		  
-		  <div class="pt-10 mx-4 md:mx-10 flex flex-col md:flex-row justify-evenly">
+		<div class="pt-10 mx-4 md:mx-10 flex flex-col md:flex-row justify-evenly">
 			<div class="card m-4 md:m-10">
-			  <header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg">Top 50 artists</header>
-			  <section class="p-4 bg-primary-500 rounded-b-lg text-lg md:text-xl">
+				<header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg px-6 py-4">Top 50 artists</header>
+				<section class="p-6 bg-primary-500 rounded-b-lg text-lg md:text-xl">
 				Do you want to know which artist you're listening to the most? Now you can! 
 				You are able to see your top 50 Spotify artists from the last four weeks, six months, and all time. 
-			  </section>
+				</section>
 			</div>
 			<div class="card m-4 md:m-10">
-			  <header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg">Top 50 tracks</header>
-			  <section class="p-4 bg-primary-500 rounded-b-lg text-lg md:text-xl">
+				<header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg px-6 py-4">Top 50 tracks</header>
+				<section class="p-6 bg-primary-500 rounded-b-lg text-lg md:text-xl">
 				Do you want to know what songs you listen to the most? Now you can! 
 				You are able to view your top 50 Spotify tracks from the previous four weeks, six months, and all time. 
-			  </section>
+				</section>
 			</div>
 			<div class="card m-4 md:m-10">
-			  <header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg">Top 10 albums</header>
-			  <section class="p-4 bg-primary-500 rounded-b-lg text-lg md:text-xl">
+				<header class="card-header text-2xl md:text-4xl bg-primary-500 rounded-t-lg px-6 py-4">Top 10 albums</header>
+				<section class="p-6 bg-primary-500 rounded-b-lg text-lg md:text-xl">
 				Have you ever wondered what your favorite albums are?
 				You'll find out soon enough. This feature is inbound together with a bunch more features!
-			  </section>
+				</section>
 			</div>
-		  </div>		  
+		</div>		  
 	</section>
 
 	<section id="roadmap" class="pt-20 mb-80">

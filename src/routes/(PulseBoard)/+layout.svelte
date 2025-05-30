@@ -1,10 +1,8 @@
 <script>
-	import { AppBar } from '@skeletonlabs/skeleton-svelte';
 	import { logout } from './pulseboard/spotify-api-handler';
 </script>
 
 <div class="min-h-screen flex flex-col">
-  <!-- Header Section (fixed) -->
   <header id="header" class="bg-black fixed z-50 left-0 top-0 w-full">
     <div class="flex items-center justify-between w-full max-w-screen-xl mx-auto p-4">
       <div class="flex items-center">
@@ -20,11 +18,11 @@
   </header>
 
   <!-- Main Content Area -->
-  <main class="flex-grow pt-16 pb-16"> <!-- Padding to avoid header/footer overlap -->
+  <main class="flex-grow pb-16">
     <slot />
   </main>
 
-  <!-- Footer Section -->
+  <!-- Footer Section
   <footer id="footer" class="bg-black inset-x-0 bottom-0 z-50">
     <div class="flex items-center justify-center pb-8 pt-8">
       <div class="brand text-center">
@@ -32,5 +30,5 @@
         <p class="text-lg text-white">Your Symphony of Spotify Insights!</p>
       </div>
     </div>
-  </footer>
+  </footer> -->
 </div>

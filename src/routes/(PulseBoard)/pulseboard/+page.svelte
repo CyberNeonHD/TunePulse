@@ -25,8 +25,8 @@
 <!-- End Personal stats header -->
 
 <!-- PulseBoard -->
-<section class="flex items-center justify-center mx-auto my-10 w-85 animate-fade animate-delay-[1300ms]">
-    <div class="green p-8 rounded-md">
+<section class="flex items-center justify-center mx-auto my-10 animate-fade animate-delay-[1300ms]">
+    <div class="green rounded-md">
       <h2 class="text-4xl font-semibold">Welcome to the PulseBoard</h2>
         <p class="text-lg">This is the PulseBoard, where you can find the latest updates and news about TunePulse.</p>
         <p class="text-lg">This is a hobby project, so updates may be slow.</p>
