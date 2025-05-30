@@ -32,20 +32,20 @@
   />
 </section>
 <section>
-  <div id="card-data" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 p-8">
+  <div id="card-data" class="grid grid-cols-1 md:grid-cols-2 p-8 lg:grid-cols-4 gap-20">
     {#each tracks as track, i}
-      <div class="card-container bg-green-500 text-black rounded-xl p-8 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
+      <div class="card-container bg-green-500 text-black rounded-xl p-4 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
         <span class="position bg-black text-green-500 font-bold py-1 px-3 absolute top-8 left-8 rounded-sm">#{i + 1}</span>
         <div class="image mb-8">
-          <img class="round rounded-full" src={track.album.images[1].url} alt="track" />
+          <img class="pt-16" src={track.album.images[1].url} alt="track" />
         </div>
         <a href={track.external_urls.spotify} target="_blank" class="hover:text-white">
           <h3 class="text-2xl">{track.artists[0].name} - {track.name}</h3>
         </a>
-        <h6 class="text-xl uppercase my-3">Length: {convertDuration(track.duration_ms)} mins</h6>
+        <!-- <h6 class="text-xl uppercase my-3">Length: {convertDuration(track.duration_ms)} mins</h6> -->
         <div class="skills w-full bg-green-500 text-left p-4 rounded-xl">
           <h6 class="text-xl">Album:</h6>
-          <p>{track.album.name}</p>
+          <p class="text-xl">{track.album.name}</p>
         </div>
       </div>
     {/each}

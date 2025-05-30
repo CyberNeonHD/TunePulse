@@ -35,12 +35,12 @@
   <section>
     <div id="card-data" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 p-8">
       {#each artists as artist, i}
-        <div class="card-container bg-green-500 text-black rounded-xl p-8 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
+        <div class="card-container bg-green-500 text-black rounded-xl p-4 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
           <span class="position bg-black text-green-500 font-bold py-1 px-3 absolute top-8 left-8 rounded-sm">
             #{i + 1}
           </span>
           <div class="image mb-8">
-            <img class="round rounded-full" src={convertRightSize(artist.images)} alt="user" />
+            <img class="pt-16" src={convertRightSize(artist.images)} alt="user" />
           </div>
           <a href={artist.external_urls.spotify} target="_blank" class="hover:text-white">
             <h3 class="text-2xl">{artist.name}</h3>
@@ -50,7 +50,7 @@
             <h6 class="text-xl">Genre:</h6>
             <ul class="list-none p-0 m-0">
               {#each convertGenresToLi(artist.genres) as genre}
-                <li class="inline-block border border-gray-800 rounded-sm text-xs m-1 py-1 px-2">
+                <li class="inline-block border border-gray-800 rounded-sm text-s m-1 py-1 px-2">
                   {genre}
                 </li>
               {/each}

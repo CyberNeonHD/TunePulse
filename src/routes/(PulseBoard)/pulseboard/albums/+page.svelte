@@ -38,11 +38,11 @@
       <div class="card-container bg-green-500 text-black rounded-xl p-8 relative max-w-full text-center flex flex-col items-center animate-jump-in animate-delay-[1200ms]">
           <span class="position bg-black text-green-500 font-bold py-1 px-3 absolute top-8 left-8 rounded-sm">#{i + 1}</span>
           <div class="image mb-8">
-          <img class="round rounded-full" src={album.imageUrl} alt="album" />
+          <img class="pt-16" src={album.imageUrl} alt="album" />
           </div>
           <div class="skills w-full bg-green-500 text-left p-4 rounded-xl">
-          <h6 class="text-xl">Album:</h6>
-          <p>{album.name}</p>
+          <h6 class="text-2xl">Album:</h6>
+          <p class="text-2xl">{album.name}</p>
           </div>
       </div>
       {/each}
