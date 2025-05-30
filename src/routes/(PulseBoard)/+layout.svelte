@@ -1,5 +1,6 @@
 <script>
 	import { logout } from './pulseboard/spotify-api-handler';
+  import '$lib/styles/app.css'
 </script>
 
 <div class="min-h-screen flex flex-col">

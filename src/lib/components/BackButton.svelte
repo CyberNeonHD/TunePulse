@@ -6,7 +6,7 @@
 </script>
 
 <div class="button-container">
-  <button on:click={() => goto(target)} class="back-button">
+  <button on:click={() => goto(target)} class="back-button animate-fade animate-delay-[700ms]">
     ← {text}
   </button>
 </div>

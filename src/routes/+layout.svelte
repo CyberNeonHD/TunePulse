@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import { requestAuthorization } from './auth.js';
 	import '$lib/styles/app.css';
 </script>  

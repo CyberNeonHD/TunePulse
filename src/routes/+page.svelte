@@ -53,46 +53,46 @@
 		</div>
 
 		<div class="ml-10 md:ml-32 lg:ml-52">
-			<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+			<ol class="relative border-s border-gray-200 dark:border-gray-700 pr-16">                  
 				<li class="mb-10 ms-6">            
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
-						<svg class="w-2.5 h-2.5 text-tertiary-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+						<svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
 					<h3 class="flex items-center mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 1</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Released 2022</time>
-					<p class="mb-4 text-lg font-normal text-gray-500 dark:text-tertiary-500">The ability to log into Spotify and see your own basic statistics. Stats like your top 50 artist and tracks of the past 4 weeks, 6 months and all time stats. Top 10 allbums of all time. This stage is also seen as the basic version.</p>
+					<p class="mb-4 text-lg font-normal">The ability to log into Spotify and see your own basic statistics. Stats like your top 50 artist and tracks of the past 4 weeks, 6 months and all time stats. This stage is also seen as the basic version.</p>
 				</li>
 				<li class="mb-10 ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
-						<svg class="w-2.5 h-2.5 text-tertiary-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+						<svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 2<span class="text-color-surface-500 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-500 ms-3">In working</span></h3>
-					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected full release in March, 2025</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">Rebranded to TunePulse, this update marks a significant transformation. The project has evolved from basic HTML, CSS, and JS to a more modern tech stack featuring SvelteKit, Tailwind CSS, and Skeleton Lab. This overhaul revitalizes the project and sets the stage for exciting future developments.</p>
+					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">Expected full release in July, 2025</time>
+					<p class="text-lg font-normal">Rebranded to TunePulse, this update marks a significant transformation. The project has evolved from basic HTML, CSS, and JS to a more modern tech stack featuring SvelteKit, Tailwind CSS, and Skeleton Lab. This overhaul revitalizes the project and sets the stage for exciting future developments.</p>
 				</li>
 				<li class="mb-10 ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
-						<svg class="w-2.5 h-2.5 text-tertiary-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+						<svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 3</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">TBA</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">In the next update, we plan to introduce more in-depth statistics, including features like the top 100 artists and tracks, along with detailed insights into both the artists and the tracks themselves. Additionally, we’ll be adding basic web security tools.</p>
+					<p class="text-lg font-normal ">In the next update, the plan is to introduce more in-depth statistics, including features like the top 100 artists and tracks, along with detailed insights into both the artists and the tracks themselves. Additionally, local tracking features (live tracking), so you can watch your rankings change over time.</p>
 				</li>
 				<li class="ms-6">
 					<span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-500">
-						<svg class="w-2.5 h-2.5 text-tertiary-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+						<svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 							<path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
 						</svg>
 					</span>
 					<h3 class="mb-3 text-2xl/none font-semibold text-gray-900 dark:text-white">Version 4</h3>
 					<time class="block mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">TBA</time>
-					<p class="text-lg font-normal text-gray-500 dark:text-tertiary-500">In this version, we’ll roll out more advanced statistics to enhance your experience. Our goal is to create a robust, polished version of the platform, but we’re always open to new ideas and suggestions for improvement!</p>
+					<p class="text-lg font-normal ">In this version, we’ll roll out more advanced statistics to enhance your experience. Our goal is to create a robust, polished version of the platform, but we’re always open to new ideas and suggestions for improvement!</p>
 				</li>
 			</ol>
 		</div>

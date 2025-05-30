@@ -32,10 +32,10 @@
         <p class="text-lg">This is a hobby project, so updates may be slow.</p>
         <div class="max-w-3xl mx-auto p-4 rounded-lg">
             <div class="mb-4">
-                <h2 class="text-xl font-semibold mb-2">Update 01/03/2025:</h2>
+                <h2 class="text-xl font-semibold mb-2">Update 01/06/2025:</h2>
                 <ul class="list-disc pl-6">
                     <p>Rebranded as TunePulse:</p>
-                    <p>We've made a major leap! The projecst has evolved from its original basic HTML, CSS, and JS setup to a more powerful tech stack using SvelteKit, Tailwind CSS, and Skeleton Lab. This new version represents a complete overhaul of the initial release and is set to breathe new life into the project.</p>
+                    <p>We've made a major leap! The project has evolved from its original basic HTML, CSS, and JS setup to a more powerful tech stack using SvelteKit, Tailwind CSS, and Skeleton Lab. This new version represents a complete overhaul of the initial release and is set to breathe new life into the project.</p>
                 </ul>
             </div>
         </div>
@@ -51,8 +51,10 @@
             </ul>
             <h2 class="text-xl font-semibold mb-2">Bugs and features:</h2>
             <ul class="list-disc pl-6">
+              <li>BackButton component created</li>
               <li>TimeRangeSelector component created</li>
-              <li>Upgrades all packages to the latest version (13/01/2025)</li>
+              <li>Upgrades all packages to the latest version (30/05/2025)</li>
+              <li>Migrated to Skeleton V3 / TailwindCSS V4</li>
               <li>Auth bypass fixed.</li>
               <li>Top 50 Artists now available.</li>
               <li>Top 50 Tracks now available.</li>
